@@ -1,7 +1,7 @@
-public class BaseTask {
+public interface BaseTask {
 
     /**
      * Runs the task.
      */
-    public void run() {}
+    default void run() {}
 }

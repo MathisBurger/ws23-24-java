@@ -1,9 +1,8 @@
 /**
  * Default hello world program
  */
-public class HelloWorld extends BaseTask {
+public class HelloWorld implements BaseTask {
 
-    @Override
     public void run()
     {
         System.out.println("Hello World!");
