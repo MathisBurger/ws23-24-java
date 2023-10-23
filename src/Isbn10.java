@@ -1,4 +1,4 @@
-import static isbn10. Isbn10StatusCodes .*;
+import static isbn10.Isbn10StatusCodes.*;
 import java.util.Scanner;
 class Isbn10 {
     public static void main(String [] args) {
@@ -7,17 +7,10 @@ class Isbn10 {
         String isbn = scanner.nextLine();
         scanner.close();
         switch (validityIsbn10(isbn)) {
-            case OK:
-                System.out.println("OK");
-                break;
-            case FALSCHES_ZEICHEN:
-                System.out.println("Fehler: Keine Ziffer");
-                break;
-            case FALSCHE_PRUEFSUMME:
-                System.out.println("Fehler: Falsche Pruefsumme");
-                break;
-            case FALSCHE_LAENGE:
-                System.out.println("Fehler: Falsche Laenge");
+            case OK -> System.out.println("OK");
+            case FALSCHES_ZEICHEN -> System.out.println("Fehler: Keine Ziffer");
+            case FALSCHE_PRUEFSUMME -> System.out.println("Fehler: Falsche Pruefsumme");
+            case FALSCHE_LAENGE -> System.out.println("Fehler: Falsche Laenge");
         }
     }
 
