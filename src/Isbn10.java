@@ -1,7 +1,7 @@
 import static isbn10.Isbn10StatusCodes.*;
 import java.util.Scanner;
 class Isbn10 {
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         System.out.print("ISBN eingeben: ");
         Scanner scanner = new Scanner(System.in);
         String isbn = scanner.nextLine();
