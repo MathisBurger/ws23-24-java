@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de89efeb-c485-420d-acdf-9dfdae896179" name="Changes" comment="[TASK] Added all simple tasks">
+    <list default="true" id="de89efeb-c485-420d-acdf-9dfdae896179" name="Changes" comment="[TASK] Updated code style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Isbn10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Isbn10.java" afterDir="false" />
     </list>
@@ -101,7 +101,7 @@
       <updated>1697199375580</updated>
       <workItem from="1697199376585" duration="2020000" />
       <workItem from="1697640657401" duration="7825000" />
-      <workItem from="1698043948388" duration="4218000" />
+      <workItem from="1698043948388" duration="6282000" />
     </task>
     <task id="LOCAL-00001" summary="[TASK] initial commit">
       <option name="closed" value="true" />
@@ -135,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698047400098</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[TASK] Updated code style">
+      <option name="closed" value="true" />
+      <created>1698050765676</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698050765676</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +154,7 @@
     <MESSAGE value="[TASK] Added .idea to gitignore" />
     <MESSAGE value="[TASK] Updated system" />
     <MESSAGE value="[TASK] Added all simple tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="[TASK] Added all simple tasks" />
+    <MESSAGE value="[TASK] Updated code style" />
+    <option name="LAST_COMMIT_MESSAGE" value="[TASK] Updated code style" />
   </component>
 </project>

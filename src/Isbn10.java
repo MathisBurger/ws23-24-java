@@ -6,12 +6,11 @@ class Isbn10 {
         Scanner scanner = new Scanner(System.in);
         String isbn = scanner.nextLine();
         scanner.close();
-        switch (validityIsbn10(isbn)) {
-            case OK -> System.out.println("OK");
-            case FALSCHES_ZEICHEN -> System.out.println("Fehler: Keine Ziffer");
-            case FALSCHE_PRUEFSUMME -> System.out.println("Fehler: Falsche Pruefsumme");
-            case FALSCHE_LAENGE -> System.out.println("Fehler: Falsche Laenge");
-        }
+        int status = validityIsbn10(isbn);
+        if (status == OK) System.out.println("OK");
+        if (status == FALSCHES_ZEICHEN) System.out.println("Fehler: Keine Ziffer");
+        if (status == FALSCHE_PRUEFSUMME) System.out.println("Fehler: Falsche Pruefsumme");
+        if (status == FALSCHE_LAENGE) System.out.println("Fehler: Falsche Laenge");
     }
 
     /**
@@ -20,10 +19,11 @@ class Isbn10 {
      * @return The error code
      */
     public static int validityIsbn10(String isbn) {
-        int badCharIndex = badCharIndex(isbn);
-        boolean isCheckSumValid = isCheckSumValid(isbn);
-        boolean isSizeValid = isSizeValid(isbn);
-        return findErrorCode(isbn, badCharIndex, isCheckSumValid, isSizeValid);
+        String formattedIsbn = removeSpacesFromIsbn(isbn);
+        int badCharIndex = badCharIndex(formattedIsbn);
+        boolean isCheckSumValid = isCheckSumValid(formattedIsbn);
+        boolean isSizeValid = isSizeValid(formattedIsbn);
+        return findErrorCode(formattedIsbn, badCharIndex, isCheckSumValid, isSizeValid);
     }
 
     /**
@@ -58,15 +58,18 @@ class Isbn10 {
      * @return The index of the bad char. If not exists its -1
      */
     public static int badCharIndex(String isbn) {
-        String goodChars = "1234567890-";
+        String goodChars = "1234567890-X";
         char[] split = isbn.toCharArray();
         for (int i=0; i<split.length; i++) {
             if (goodChars.indexOf(split[i]) < 0) {
                 return i;
             }
-            if (split[i] == '-' && i != 2 && i != 8) {
+            if (split[i] == 'X' && i != (split.length-1)) {
                 return i;
             }
+            //if (split[i] == '-' && i != 2 && i != 8) {
+            //    return i;
+            //}
         }
         return -1;
     }
@@ -77,7 +80,7 @@ class Isbn10 {
      * @return If the checksum is valid
      */
     public static boolean isCheckSumValid(String isbn) {
-        char[] chars = removeSpacesFromIsbn(isbn).toCharArray();
+        char[] chars = isbn.toCharArray();
         int lastNumber = chars[chars.length-1] - '0';
         if (chars[chars.length-1] == 'X') {
             lastNumber = 10;
@@ -88,7 +91,7 @@ class Isbn10 {
             int multi = i+1;
             sum += (num*multi);
         }
-        return sum % 11 == lastNumber % 11;
+        return sum % 11 == lastNumber;
     }
 
     /**
@@ -97,7 +100,7 @@ class Isbn10 {
      * @return If the size is valid
      */
     public static boolean isSizeValid(String isbn) {
-        return removeSpacesFromIsbn(isbn).toCharArray().length == 10;
+        return isbn.toCharArray().length == 10;
     }
 
     public static String removeSpacesFromIsbn(String isbn) {
