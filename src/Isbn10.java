@@ -15,6 +15,7 @@ class Isbn10 {
 
     /**
      * Validates the ISBN
+     *
      * @param isbn The initial isbn
      * @return The error code
      */
@@ -28,6 +29,7 @@ class Isbn10 {
 
     /**
      * Finds the error code from the validation results
+     *
      * @param isbn The isbn
      * @param badCharIndex If there is a bad char
      * @param isCheckSumValid If the checksum is valid
@@ -54,6 +56,7 @@ class Isbn10 {
 
     /**
      * Gets the index of a bad char
+     *
      * @param isbn The isbn
      * @return The index of the bad char. If not exists its -1
      */
@@ -76,6 +79,7 @@ class Isbn10 {
 
     /**
      * Checks if the check sum is valid
+     *
      * @param isbn The isbn
      * @return If the checksum is valid
      */
@@ -96,6 +100,7 @@ class Isbn10 {
 
     /**
      * Checks if the size is valid
+     *
      * @param isbn The ISBN
      * @return If the size is valid
      */
