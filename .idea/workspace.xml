@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de89efeb-c485-420d-acdf-9dfdae896179" name="Changes" comment="[TASK] Updated doc">
-      <change afterPath="$PROJECT_DIR$/src/MultiTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrimeFactor.java" afterDir="false" />
+    <list default="true" id="de89efeb-c485-420d-acdf-9dfdae896179" name="Changes" comment="[TASK] Updated multi table">
+      <change afterPath="$PROJECT_DIR$/src/GraphicsPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +45,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MultiTable">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GraphicsPanel">
     <configuration name="Armstrong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Armstrong" />
       <module name="uni" />
@@ -54,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Isbn10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Isbn10" />
+    <configuration name="GraphicsPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GraphicsPanel" />
       <module name="uni" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GraphicsPanel" />
         <item itemvalue="Application.MultiTable" />
         <item itemvalue="Application.PrimeFactor" />
         <item itemvalue="Application.Armstrong" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Isbn10" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +111,7 @@
       <workItem from="1698238168839" duration="774000" />
       <workItem from="1699863001805" duration="1970000" />
       <workItem from="1700059076912" duration="490000" />
-      <workItem from="1700060522829" duration="3033000" />
+      <workItem from="1700060522829" duration="4211000" />
     </task>
     <task id="LOCAL-00001" summary="[TASK] initial commit">
       <option name="closed" value="true" />
@@ -181,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700059888468</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[TASK] Updated multi table">
+      <option name="closed" value="true" />
+      <created>1700065617981</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1700065617981</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +208,7 @@
     <MESSAGE value="[TASK] Fixed isbn10" />
     <MESSAGE value="[TASK] Updated hello world" />
     <MESSAGE value="[TASK] Updated doc" />
-    <option name="LAST_COMMIT_MESSAGE" value="[TASK] Updated doc" />
+    <MESSAGE value="[TASK] Updated multi table" />
+    <option name="LAST_COMMIT_MESSAGE" value="[TASK] Updated multi table" />
   </component>
 </project>
