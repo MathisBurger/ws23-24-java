@@ -1,9 +1,9 @@
 /**
  * Default hello world program
  */
-public class HelloWorld implements BaseTask {
+public class HelloWorld {
 
-    public void run()
+    public static void main(String[] args)
     {
         System.out.println("Hello World!");
     }
