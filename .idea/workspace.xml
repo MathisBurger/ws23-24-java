@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de89efeb-c485-420d-acdf-9dfdae896179" name="Changes" comment="[TASK] Updated multi table">
-      <change afterPath="$PROJECT_DIR$/src/GraphicsPanel.java" afterDir="false" />
+    <list default="true" id="de89efeb-c485-420d-acdf-9dfdae896179" name="Changes" comment="[TASK] Added graphics panel">
+      <change afterPath="$PROJECT_DIR$/src/Collatz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GraphicsPanel">
+  <component name="RunManager" selected="Application.Collatz">
     <configuration name="Armstrong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Armstrong" />
       <module name="uni" />
@@ -58,15 +58,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphicsPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GraphicsPanel" />
+    <configuration name="Collatz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collatz" />
       <module name="uni" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="GraphicsPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GraphicsPanel" />
       <module name="uni" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Collatz" />
         <item itemvalue="Application.GraphicsPanel" />
         <item itemvalue="Application.MultiTable" />
         <item itemvalue="Application.PrimeFactor" />
         <item itemvalue="Application.Armstrong" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +111,7 @@
       <workItem from="1698238168839" duration="774000" />
       <workItem from="1699863001805" duration="1970000" />
       <workItem from="1700059076912" duration="490000" />
-      <workItem from="1700060522829" duration="4211000" />
+      <workItem from="1700060522829" duration="4884000" />
     </task>
     <task id="LOCAL-00001" summary="[TASK] initial commit">
       <option name="closed" value="true" />
@@ -193,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700065617981</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[TASK] Added graphics panel">
+      <option name="closed" value="true" />
+      <created>1700066962884</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700066962884</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +217,7 @@
     <MESSAGE value="[TASK] Updated hello world" />
     <MESSAGE value="[TASK] Updated doc" />
     <MESSAGE value="[TASK] Updated multi table" />
-    <option name="LAST_COMMIT_MESSAGE" value="[TASK] Updated multi table" />
+    <MESSAGE value="[TASK] Added graphics panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="[TASK] Added graphics panel" />
   </component>
 </project>
