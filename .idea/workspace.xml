@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de89efeb-c485-420d-acdf-9dfdae896179" name="Changes" comment="[TASK] Added Recap class">
-      <change afterPath="$PROJECT_DIR$/src/AB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="de89efeb-c485-420d-acdf-9dfdae896179" name="Changes" comment="[TASK] Added AB task">
+      <change afterPath="$PROJECT_DIR$/src/MoreSmallThanLarge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,25 +31,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AB">
+  <component name="RunManager" selected="Application.MoreSmallThanLarge">
     <configuration name="AB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AB" />
       <module name="uni" />
@@ -86,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiTable" />
+    <configuration name="MoreSmallThanLarge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MoreSmallThanLarge" />
       <module name="uni" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MoreSmallThanLarge" />
         <item itemvalue="Application.AB" />
         <item itemvalue="Application.Recap" />
         <item itemvalue="Application.Isbn10" />
         <item itemvalue="Application.GraphicsPanel" />
-        <item itemvalue="Application.MultiTable" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +137,7 @@
       <workItem from="1702478018478" duration="1524000" />
       <workItem from="1702479555325" duration="1579000" />
       <workItem from="1704895304167" duration="3740000" />
-      <workItem from="1705062155546" duration="398000" />
+      <workItem from="1705062155546" duration="1265000" />
     </task>
     <task id="LOCAL-00001" summary="[TASK] initial commit">
       <option name="closed" value="true" />
@@ -248,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704899405228</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="[TASK] Added AB task">
+      <option name="closed" value="true" />
+      <created>1705062796907</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1705062796907</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +279,7 @@
     <MESSAGE value="[TASK] Added Collatz" />
     <MESSAGE value="[TASK] Did nothing" />
     <MESSAGE value="[TASK] Added Recap class" />
-    <option name="LAST_COMMIT_MESSAGE" value="[TASK] Added Recap class" />
+    <MESSAGE value="[TASK] Added AB task" />
+    <option name="LAST_COMMIT_MESSAGE" value="[TASK] Added AB task" />
   </component>
 </project>
