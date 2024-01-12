@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de89efeb-c485-420d-acdf-9dfdae896179" name="Changes" comment="[TASK] Did nothing">
-      <change afterPath="$PROJECT_DIR$/src/Recap.java" afterDir="false" />
+    <list default="true" id="de89efeb-c485-420d-acdf-9dfdae896179" name="Changes" comment="[TASK] Added Recap class">
+      <change afterPath="$PROJECT_DIR$/src/AB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Recap">
+  <component name="RunManager" selected="Application.AB">
+    <configuration name="AB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AB" />
+      <module name="uni" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GraphicsPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GraphicsPanel" />
       <module name="uni" />
@@ -95,9 +102,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AB" />
         <item itemvalue="Application.Recap" />
         <item itemvalue="Application.Isbn10" />
-        <item itemvalue="Application.Isbn10my" />
         <item itemvalue="Application.GraphicsPanel" />
         <item itemvalue="Application.MultiTable" />
       </list>
@@ -126,7 +133,8 @@
       <workItem from="1702390259302" duration="2347000" />
       <workItem from="1702478018478" duration="1524000" />
       <workItem from="1702479555325" duration="1579000" />
-      <workItem from="1704895304167" duration="3130000" />
+      <workItem from="1704895304167" duration="3740000" />
+      <workItem from="1705062155546" duration="398000" />
     </task>
     <task id="LOCAL-00001" summary="[TASK] initial commit">
       <option name="closed" value="true" />
@@ -232,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704895383633</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[TASK] Added Recap class">
+      <option name="closed" value="true" />
+      <created>1704899405228</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1704899405228</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +267,7 @@
     <MESSAGE value="[TASK] Added graphics panel" />
     <MESSAGE value="[TASK] Added Collatz" />
     <MESSAGE value="[TASK] Did nothing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[TASK] Did nothing" />
+    <MESSAGE value="[TASK] Added Recap class" />
+    <option name="LAST_COMMIT_MESSAGE" value="[TASK] Added Recap class" />
   </component>
 </project>
