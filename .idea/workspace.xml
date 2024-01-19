@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de89efeb-c485-420d-acdf-9dfdae896179" name="Changes" comment="[TASK] Added another class">
-      <change afterPath="$PROJECT_DIR$/src/DistancesAreSame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sodoku.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -42,6 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/mburger/Documents/Programmierung/Privat/ws23-24-java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,16 +59,9 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MoreSmallThanLarge">
+  <component name="RunManager" selected="Application.Sodoku">
     <configuration name="AB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AB" />
-      <module name="uni" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GraphicsPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GraphicsPanel" />
       <module name="uni" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,13 +102,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sodoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sodoku" />
+      <module name="uni" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sodoku" />
         <item itemvalue="Application.MoreSmallThanLarge" />
         <item itemvalue="Application.AB" />
         <item itemvalue="Application.Recap" />
         <item itemvalue="Application.Isbn10" />
-        <item itemvalue="Application.GraphicsPanel" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +144,7 @@
       <workItem from="1702479555325" duration="1579000" />
       <workItem from="1704895304167" duration="3740000" />
       <workItem from="1705062155546" duration="2499000" />
+      <workItem from="1705669142608" duration="1390000" />
     </task>
     <task id="LOCAL-00001" summary="[TASK] initial commit">
       <option name="closed" value="true" />
